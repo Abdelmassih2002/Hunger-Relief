@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: relative;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/whobg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home .nav {
+  width: 100%;
+  height: 100px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+.home .nav ul {
+  list-style-type: none;
+}
+.home .nav ul li {
+  float: right;
+  margin: 40px 40px 0px 0px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.home .nav ul li:hover {
+  transform: scale(1.15, 1.15);
+}
+.home .nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.799);
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 200;
+  transition: all 0.5s;
+}
+
+.home .nav ul li img {
+  width: 40px;
+  margin: 1px 10px;
+}
+
+.home .nav:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.home .nav:hover ul li a {
+  color: rgb(255, 255, 255);
+}
+
+.home .nave:hover ul li {
+  color: rgb(255, 255, 255);
+}
+
+.pluto {
+  height: 100%;
+  width: 40%;
+  float: left;
+  text-align: left;
+}
+.imgg {
+  height: 100%;
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+.imgg img {
+  height: 100%;
+}
+.content {
+  height: 620px;
+}
+.content h1 {
+  margin: 110px 20px 30px 90px;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.content p {
+  margin: 30px 20px 30px 90px;
+  font-weight: 100;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.content ul {
+  text-align: left;
+  margin: 40px 0 0 120px;
+  list-style-image: url(../image/heart2.png);
+}
+.content ul li {
+  margin: 10px;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.wh {
+  width: 50%;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+.wh h2 {
+  font-weight: 500;
+  font-size: 72px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  letter-spacing: 5px;
+}
+.wh p {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.line {
+  height: 2px;
+  width: 200px;
+  background-color: green;
+  margin-left: 89px;
+}
+
+/*---------------------------------------footer-----------------------------------------*/
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+footer .sec1,
+.sec2,
+.sec3 {
+  width: 28%;
+  height: 100%;
+  float: left;
+  color: white;
+}
+.sec4 {
+  width: 15%;
+  float: left;
+  color: white;
+  text-align: left;
+  height: 100%;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  margin: 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white !important;
+}
+footer h4 {
+  margin: 30px;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.sec4 p {
+  width: 100%;
+  margin-top: 250px;
+}
+.sec1 p {
+  margin: 50px;
+  font-size: 14px;
+}
+.sec2 ul {
+  margin: 50px;
+  font-size: 14px;
+  color: white;
+
+}
+.sec3 ul {
+  margin: 50px;
+  font-size: 14px;
+  color: white;
+
+}
